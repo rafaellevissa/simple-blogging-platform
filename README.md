@@ -18,13 +18,13 @@ A RESTful API built with Django and Django REST Framework to manage a simple blo
 2. Build and start the containers:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 3. In another terminal, apply the migrations:
 
 ```bash
-docker-compose exec app python manage.py migrate
+docker compose exec app python manage.py migrate
 ```
 
 ---
